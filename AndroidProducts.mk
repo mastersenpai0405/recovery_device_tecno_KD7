@@ -18,3 +18,6 @@
 
 PRODUCT_MAKEFILES := \
      $(LOCAL_DIR)/omni_KD7.mk
+	 
+COMMON_LUNCH_CHOICES := \
+    omni_KD7-eng
