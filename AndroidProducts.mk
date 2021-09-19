@@ -17,4 +17,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_TECNO-KD7.mk
+     $(LOCAL_DIR)/omni_KD7.mk

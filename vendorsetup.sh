@@ -15,6 +15,3 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-
-add_lunch_combo omni_TECNO-KD7-userdebug
-add_lunch_combo omni_TECNO-KD7-eng

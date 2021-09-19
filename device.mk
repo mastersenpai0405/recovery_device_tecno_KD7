@@ -16,5 +16,5 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/tecno/TECNO-KD7
+LOCAL_PATH := device/tecno/KD7
 
