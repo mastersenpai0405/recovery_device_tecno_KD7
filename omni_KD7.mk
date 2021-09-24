@@ -24,9 +24,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := TECNO-KD7
+PRODUCT_DEVICE := KD7
 PRODUCT_NAME := omni_KD7
 PRODUCT_BRAND := TECNO
-PRODUCT_MODEL := TECNO
-PRODUCT_MANUFACTURER := tecno
-PRODUCT_RELEASE_NAME := TECNO TECNO
+PRODUCT_MODEL := Spark 5 Pro
+PRODUCT_MANUFACTURER := TECNO MOBILITY
+PRODUCT_RELEASE_NAME := TECNO Spark 5 Pro
