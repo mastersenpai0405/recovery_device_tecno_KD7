@@ -15,7 +15,7 @@ if [ -z "$1" -a -z "$FOX_BUILD_DEVICE" ]; then
 fi
 
 if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
-    export TW_DEFAULT_LANGUAGE="en"
+        export TW_DEFAULT_LANGUAGE="en"
 	export TARGET_DEVICE_ALT="TECNO-KD7"
 	export LC_ALL="C"
 	export ALLOW_MISSING_DEPENDENCIES=true
@@ -49,6 +49,11 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export OF_STATUS_H=80
 	export OF_STATUS_INDENT_LEFT=48
 	export OF_STATUS_INDENT_RIGHT=48
+
+        # Flashlight
+        export OF_FLASHLIGHT_ENABLE=2
+        export OF_FL_PATH1="/sys/devices/virtual/flashlight_core/flashlight/flashlight_torch"
+        export OF_FL_PATH2="/sys/devices/virtual/flashlight_core/flashlight/flashlight_torch"
 
 	# R11
 	export FOX_R11=2
